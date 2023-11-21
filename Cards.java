@@ -14,7 +14,7 @@ public class Cards {
         int players = 0; //количество игроков
         int amountCards = deckOfCards.length; //количество карт
         //проверка введенных значений
-        System.out.println("\nВведите количество игроков от 2 до 10: ");
+        System.out.print("\nВведите количество игроков от 2 до 10: ");
         if (scan.hasNextInt()) {
             players = scan.nextInt();
             if (players < 2 || players > 10) {
